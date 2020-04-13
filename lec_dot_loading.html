@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+
+	<style type="text/css">
+		.ring {
+			width: 10px;
+			height:10px;
+			margin:0 auto;
+			padding:10px;
+			border: 7px dashed #4b9cdb;
+			border-radius: 100%;  
+		}
+
+		.innerCon .ring {animation: abc 1.5s .3s cubic-bezier(.17,.37,.43,.67) infinite;}
+
+
+		  @keyframes abc {
+		  	0%{transform: rotate(0deg);}
+
+		  	50%{transform: rotate(180deg);}
+
+		  	100%{transform: rotate(3600deg);}
+		  }
+	</style>
+
+</head>
+<body>
+
+<!-- End  -->
+
+
+<div style="margin-top:10%">
+	<div class="innerCon">
+		<div class="ring"></div>
+	</div>
+
+	<!-- Now We add the css classes -->
+</div>
+</body>
+</html>
